@@ -1,0 +1,202 @@
+*
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nunito&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+  
+    overflow-x: hidden;
+    
+}
+#header
+{
+    height: 100vh;
+    background: url(images/homepage1.webp);
+        background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+.user{
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    
+}
+.user img
+{
+    width: 20%;
+    border: 5px solid red;
+}
+.main-text{
+    position: relative;
+    bottom: 100%;
+    left: 35%;
+}
+
+.scrollbutton
+{
+    bottom: 30%;
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    transform: translateX(50%);
+    border: 2px solid red;
+    padding: 10px 10px 20px;
+    border-radius: 30px;
+}
+.scrollbar span
+{
+    border: 2px solid white; 
+    border-radius: 30px;
+    font-size: 10px;
+}
+.scrollbar
+{
+    animation: dont 1s infinite alternate;
+}
+@keyframes dont{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(10px);}
+}
+
+
+.about h1{
+    text-align: center;
+}
+.text-abo{
+    width: 40px;
+    margin-left: 20px;
+}
+.text-abo p{
+    width: 400px;
+    position: relative;
+    bottom: 325px;
+}
+
+.column img{
+    width: 30%;
+    border: 3px solid black;
+    position: relative;
+    left: 60%;
+    bottom: 60%;
+}
+.column img:hover{
+    transform: rotate(20deg);
+}
+.text-abo{
+    width: 500px;
+    height: auto;
+}
+.nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 1020;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.navbar{
+    background-image: url(images/navbar.png);
+color: white;
+}
+.nav-link
+{
+    color:antiquewhite;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-nav{
+    float: right;
+    text-align: right;
+}
+
+.nav-link{
+    color: antiquewhite !important;
+}
+.education-section{
+    text-align: center;
+    width: 80%;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.what{
+    position: relative;
+    left: 80%;
+}
+
+.awards{
+    margin-top: 50px;
+    background: white;
+}
+.awards h3{
+    margin-bottom: 50px;
+}
+.col-md-4 h1{
+    text-align: center;
+}
+.awards{
+   
+    color: black;
+    padding: 0px;
+}
+.awards h1{
+    text-align:center;
+    color: black;
+}
+awards h2{
+    text-align: left;
+        color:black;
+}
+.tech{
+  margin-top: 50px;
+    color: black;
+}
+.tech h1{
+    text-align:center;
+    color: black;
+}
+.tech p{
+    text-align: left;
+    font-size: 20;
+}
+
+.container{
+    padding-top: 30px;
+    
+    margin-left: 30px;
+}
+
+.foot{
+   
+    align-content: center;
+    height: 100px;
+    background-origin: content-box;
+    flex: auto;    
+    font-size: 25px; 
+}
+.foot img{
+    margin-right: 50px;
+    margin-top: 12px;
+    height: 50px;
+    float: right;
+   
+
+}
+.foot img:hover{
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
